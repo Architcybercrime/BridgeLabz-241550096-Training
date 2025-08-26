@@ -1,11 +1,13 @@
-
-public class LeapYearLogical {
+import java.util.Scanner;
+class LeapYearLogical {
     public static void main(String[] args) {
-        int year = 2024;
+        Scanner input = new Scanner(System.in);
+        int year = input.nextInt();
         if (year >= 1582 && (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))) {
-            System.out.println(year + " is a leap year.");
+            System.out.println("Leap Year");
         } else {
-            System.out.println(year + " is not a leap year.");
+            System.out.println("Not a Leap Year");
         }
+        input.close();
     }
 }

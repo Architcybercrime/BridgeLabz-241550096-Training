@@ -1,18 +1,18 @@
 import java.util.Scanner;
-public class GreatestFactorWhile {
+class GreatestFactorWhile {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
         int greatestFactor = 1;
-        int counter = num - 1;
-        while (counter >= 1) {
-            if (num % counter == 0) {
-                greatestFactor = counter;
+        int i = n - 1;
+        while (i >= 1) {
+            if (n % i == 0) {
+                greatestFactor = i;
                 break;
             }
-            counter--;
+            i--;
         }
-        System.out.println("Greatest factor beside itself: " + greatestFactor);
+        System.out.println("Greatest factor: " + greatestFactor);
+        input.close();
     }
 }

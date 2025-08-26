@@ -1,19 +1,12 @@
-
-public class DayOfWeek {
+class DayOfWeek {
     public static void main(String[] args) {
-        int day = 26, month = 8, year = 2025;
-
-        if (month < 3) {
-            month += 12;
-            year -= 1;
-        }
-
-        int K = year % 100;
-        int J = year / 100;
-
-        int h = (day + (13 * (month + 1)) / 5 + K + (K / 4) + (J / 4) + (5 * J)) % 7;
-
-        String[] days = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
-        System.out.println("Day of the week: " + days[h]);
+        int m = Integer.parseInt(args[0]);
+        int d = Integer.parseInt(args[1]);
+        int y = Integer.parseInt(args[2]);
+        int y0 = y - (14 - m) / 12;
+        int x = y0 + y0/4 - y0/100 + y0/400;
+        int m0 = m + 12 * ((14 - m) / 12) - 2;
+        int d0 = (d + x + (31*m0)/12) % 7;
+        System.out.println(d0);
     }
 }

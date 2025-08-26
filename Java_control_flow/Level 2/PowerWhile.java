@@ -1,17 +1,20 @@
 import java.util.Scanner;
-public class PowerWhile {
+class PowerWhile {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        int num = sc.nextInt();
-        System.out.print("Enter power: ");
-        int pow = sc.nextInt();
-        long result = 1;
-        int counter = 0;
-        while (counter < pow) {
-            result *= num;
-            counter++;
+        Scanner input = new Scanner(System.in);
+        int base = input.nextInt();
+        int exp = input.nextInt();
+        if (base > 0 && exp >= 0) {
+            int result = 1;
+            int counter = 0;
+            while (counter < exp) {
+                result *= base;
+                counter++;
+            }
+            System.out.println("Result: " + result);
+        } else {
+            System.out.println("Invalid input");
         }
-        System.out.println(num + "^" + pow + " = " + result);
+        input.close();
     }
 }
