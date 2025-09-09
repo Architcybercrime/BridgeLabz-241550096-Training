@@ -1,0 +1,30 @@
+class BankAccount {
+    int accountNumber; double balance;
+    BankAccount(int accountNumber, double balance) { this.accountNumber = accountNumber; this.balance = balance; }
+}
+
+class SavingsAccount extends BankAccount {
+    double interestRate;
+    SavingsAccount(int accountNumber, double balance, double interestRate) { super(accountNumber, balance); this.interestRate = interestRate; }
+    void displayAccountType() { System.out.println("Savings Account with interest rate: " + interestRate + "%"); }
+}
+
+class CheckingAccount extends BankAccount {
+    double withdrawalLimit;
+    CheckingAccount(int accountNumber, double balance, double withdrawalLimit) { super(accountNumber, balance); this.withdrawalLimit = withdrawalLimit; }
+    void displayAccountType() { System.out.println("Checking Account with withdrawal limit: " + withdrawalLimit); }
+}
+
+class FixedDepositAccount extends BankAccount {
+    int term;
+    FixedDepositAccount(int accountNumber, double balance, int term) { super(accountNumber, balance); this.term = term; }
+    void displayAccountType() { System.out.println("Fixed Deposit Account with term: " + term + " years"); }
+}
+
+public class Q8_BankAccounts {
+    public static void main(String[] args) {
+        new SavingsAccount(101, 5000, 5).displayAccountType();
+        new CheckingAccount(102, 3000, 1000).displayAccountType();
+        new FixedDepositAccount(103, 10000, 5).displayAccountType();
+    }
+}
