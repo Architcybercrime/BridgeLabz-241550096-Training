@@ -1,75 +1,97 @@
-# Bridgelabz-2415500096-Training
+# ☕ Java Classroom Work Repository  
 
-### Java Learning Log
+Welcome to my *Java Classroom Work Repository, a structured collection of Java programs and assignments completed as part of my coursework under the **Object-Oriented Programming (Java)* module.  
+This repository documents my learning journey — from the foundational elements of Java programming to advanced concepts like JDBC, Generics, and Collections — implemented systematically with Git version control.
 
-*August 11–13, 2025*
-- Set up *Git Bash* and learned how to use it for version control  
-- Understood the difference between *Git, **Git Bash, and **GitHub*  
-- Practiced basic *Git commands* (init, add, commit, push, clone, etc.)  
-- Learned about *best practices* for using Git and maintaining repositories  
-- Solved several *basic Java problems* to strengthen foundational logic
+---
 
-*August 18–20, 2025*
-- Started learning *Java programming* fundamentals  
-- Studied the main *elements of Java programming* such as syntax, keywords, data types, and variables  
-- Understood *Java structure* including main() method, statements, and basic program flow  
-- Practiced simple *input/output* programs and built familiarity with the *Java development environment*
+## 🧩 Student Information  
 
-*August 25–27, 2025*
-- Learned about *control flow statements* (if, else, switch, while, for, and do-while loops)  
-- Understood the importance of *decision-making* and *iteration* in Java  
-- Studied *arrays, including **1D and 2D arrays*, their declaration, initialization, and traversal  
-- Implemented programs using *nested loops* for matrix operations and array-based computations
+| Field | Details |
+|--------|----------|
+| 👩‍🎓 *Name* | Archit Agrawal |
+| 🏷 *Class Roll Number* | 12 |
+| 🪪 *University Roll Number* | 2415500096 |
+| 🏫 *Institution* | GLA University, Mathura |
+| 📚 *Course* | B.Tech. CSE – 2nd Year (Odd Semester 2025–26) |
+| 💻 *Subject* | Object-Oriented Programming using Java |
+| 📆 *Term Duration* | August 2025 – November 2025 |
 
-*September 1–3, 2025*
-- Explored *edge cases* and how to handle boundary conditions in Java programs  
-- Studied *methods* — definition, declaration, parameters, and return types  
-- Practiced writing and calling *user-defined methods* for modular programming  
-- Studied *Strings* in depth — their creation, manipulation, and immutability  
-- Learned about *StringBuffer* and *StringBuilder* classes for efficient string operations  
-- Compared performance and use-cases of *String, **StringBuffer, and **StringBuilder*
+---
 
-*September 8–10, 2025*
-- Introduced to *Object-Oriented Programming (OOPs)* concepts — encapsulation, inheritance, polymorphism, and abstraction  
-- Studied *Java constructors* — default, parameterized, and copy constructors  
-- Understood the difference between *instance variables* and *class (static) variables*  
-- Learned about *access modifiers* (public, private, protected, and default) and their scope  
-- Explored *inheritance* and how to create hierarchical class relationships in Java
+## 📘 Module-Wise Learning Plan (LDP Summary)
 
-*September 15–17, 2025*
-- Studied advanced *OOPs concepts*: Encapsulation, Interfaces, Abstract Classes, and Polymorphism  
-- Explored *Polymorphism* in depth with examples  
-- Practiced *Method Overriding* and *Method Overloading* to understand compile-time and runtime polymorphism  
-- Learned about *Upcasting* and *Downcasting*, including their practical use cases  
-- Introduced to *Abstract Classes* and *Abstract Methods*, understanding when and how to use them  
-- Implemented examples combining *interfaces* and *abstraction* to strengthen conceptual understanding
+### 🧠 *Module 1 — Core Programming Concepts*
+| Lectures | Date Range | Topics | Depth | Remarks |
+|-----------|-------------|--------|--------|----------|
+| 1–3 | 12–14 Aug 2025 | *Basic Elements of Programming:* Variables, Literals, Primitive Data Types, Basic I/O, Operators, Variable Scope, var keyword | Detailed | Understanding Java fundamentals |
+| 4–6 | 15–18 Aug 2025 | *Git Programming:* Git vs GitHub, Repo, Branch, Merge, Commit, Push, Pull, Version Control | Detailed | Introduced Git for project management |
+| 7–9 | 19–21 Aug 2025 | *Programming Constructs:* Sequence, Selection, Iteration, For-each loop, Transfer statements | Detailed | Control flow basics |
+| 10–13 | 22–26 Aug 2025 | *Java Control Flows:* Boolean expressions, Logical operators, Loops (for, while, do-while), if-else, switch, break & continue | Detailed | Core logic flow in Java |
+| 14 | 27 Aug 2025 | *User Input Handling:* Scanner class, Command-line arguments | Detailed | Input and console interaction |
+| 15–16 | 28–30 Aug 2025 | *Core Programming – Intermediate:* JVM, Compiler & Interpreter, Garbage Collector | Detailed | Java internals understanding |
+| 17–19 | 2–4 Sept 2025 | *Arrays in Java:* 1D, 2D, Multi-Dimensional arrays, Arrays class, arrayCopy() | Detailed | Efficient data management |
+| 20–23 | 5–9 Sept 2025 | *Strings:* String, StringBuilder, StringBuffer, StringTokenizer, ASCII codes | Detailed | Text and data manipulation |
+| 24–27 | 10–13 Sept 2025 | *Java Methods:* User-defined, Static, Recursive, Library (Math) methods | Detailed | Reusable and modular programming |
+| 28–30 | 14 Sept 2025 | *Revision & Problem Solving* | — | Concept consolidation |
 
-*September 22–24, 2025*
-- Began solving *real-life scenario-based Java problems*  
-- Applied *Object-Oriented Programming* concepts such as inheritance, polymorphism, abstraction, and encapsulation to practical examples  
-- Strengthened understanding of OOP principles through *hands-on implementation* and problem-solving exercises  
-- Focused on writing *structured, reusable, and modular Java code* simulating real-world use cases
+---
 
-*October 13–15, 2025*
-- Completed the topic of *Interfaces in Java*  
-- Learned how to *define and implement interfaces* effectively  
-- Explored *Functional Interfaces, **Default Methods, **Static Methods, and **Marker Interfaces* with real-world examples  
-- Understood the purpose and usage of *lambda expressions* for concise functional-style coding  
-- Practiced implementing *interfaces with lambda expressions* to simplify and optimize Java code
+### ⚙ *Module 2 — Object-Oriented Programming*
+| Lectures | Date Range | Topics | Depth | Remarks |
+|-----------|-------------|--------|--------|----------|
+| 1–6 | 16–21 Sept 2025 | *Programming Paradigms:* Procedural vs OOP, Features of OOP, IDE setup (IntelliJ/Eclipse) | Detailed | Transition to OOP thinking |
+| 7–14 | 22–26 Sept 2025 | *Defining Methods:* Signatures, Overloading, Static vs Instance, Recursion | Detailed | Foundation for OOP |
+| 15–22 | 27 Sept – 3 Oct 2025 | *Classes and Objects:* Creation, Constructors (default, parameterized, chained), Object lifecycle | Detailed | Core OOP modeling |
+| 23–27 | 4–8 Oct 2025 | *Abstraction:* Abstract classes, methods, this & final keywords | Detailed | Code simplification |
+| 28–32 | 9–12 Oct 2025 | *Encapsulation:* Access Modifiers, Getters & Setters | Detailed | Data hiding principle |
+| 33–40 | 14–21 Oct 2025 | *Inheritance:* Types (Single, Multilevel, Hierarchical), Constructor chaining, super keyword | Detailed | Reusability in Java |
+| 41–47 | 22–28 Oct 2025 | *Polymorphism:* Overloading, Overriding, instanceof, Static vs Dynamic binding | Detailed | Flexibility in OOP |
+| 48–50 | 29–30 Oct 2025 | *Revision & Story-Based Problem Solving* | — | Applied learning |
 
-*October 27–29, 2025*
-- Studied *Packages* in Java — their purpose, creation, and how to import and organize classes efficiently  
-- Learned about *Exception Handling* — try, catch, finally, throw, and throws  
-- Understood *checked vs. unchecked exceptions* and how to create *custom exceptions*  
-- Explored *Wrapper Classes* and their role in converting primitive data types to objects (autoboxing and unboxing)  
-- Implemented examples integrating packages, exception handling, and wrapper classes in practical programs
+---
 
-*November 3–5, 2025*
-- Studied *Java Generics* and their role in writing type-safe, reusable code  
-- Explored the *Collections Framework, including core interfaces such as **List, **Set, and **Queue*  
-- Learned about *Map* and its implementations like *HashMap* and *TreeMap*  
-- Practiced using *ArrayList, **HashSet, and **HashMap* through hands-on coding exercises  
-- Understood how *Generics* integrate with *Collections* to ensure type safety and cleaner code  
-- Learned *JDBC (Java Database Connectivity)* — concepts, architecture, and how to connect Java with databases  
-- Practiced *CRUD operations (Create, Read, Update, Delete)* using JDBC with MySQL  
-- Understood the role of *DriverManager, **Connection, **Statement, and **ResultSet* classes in database interaction
+### 🧩 *Module 3 — Advanced Java Concepts*
+| Lectures | Date Range | Topics | Depth | Remarks |
+|-----------|-------------|--------|--------|----------|
+| 1 | 31 Oct 2025 | *Interfaces:* Functional, Default & Static, Marker interfaces | Overview | Foundation for modularity |
+| 2 | 1 Nov 2025 | *Lambda Expressions:* Syntax, Use cases | Overview | Functional approach in Java |
+| 3 | 2 Nov 2025 | *Packages:* Defining, Importing, Creating modular programs | Overview | Organized codebase |
+| 4 | 3 Nov 2025 | *Exception Handling:* Checked & Unchecked, try, catch, throw, throws | Overview | Safe execution |
+| 5 | 4 Nov 2025 | *Wrapper Classes:* Primitive to Object conversion (Autoboxing/Unboxing) | Overview | Collection readiness |
+| 6 | 5 Nov 2025 | *Generics & Collections:* List (ArrayList, LinkedList), Set (HashSet) | Overview | Type-safe data structures |
+| 7 | 6 Nov 2025 | *Map (HashMap):* Key-Value storage | Overview | Efficient mapping |
+| 8 | 8 Nov 2025 | *JDBC (Database Connectivity):* MySQL with DriverManager, PreparedStatement, ResultSet | Overview | Database operations |
+| 9–10 | 10–11 Nov 2025 | *Final Revision & Story-Based Problem Solving* | — | Comprehensive wrap-up |
+
+---
+
+## 🧱 *Git Branch Workflow*
+
+| Branch Name | Content Area |
+|--------------|---------------|
+| basics | Java basics, variables, data types |
+| control-flows | Loops and conditional structures |
+| arrays | Array operations |
+| strings | String handling and methods |
+| methods | User-defined and static methods |
+| oops | Classes, Objects, Constructors |
+| inheritance | OOP inheritance models |
+| polymorphism | Method overriding & dynamic dispatch |
+| interfaces | Interface and Lambda usage |
+| packages | Modular programming |
+| exceptions | Exception handling |
+| collections | Generics and Collections |
+| jdbc | Database connectivity programs |
+
+---
+
+## ⚙ How to Run  
+
+### 🖥 Using Command Line  
+```bash
+# Compile Java files
+javac src/*.java
+
+# Run the main class
+java -cp src Main
